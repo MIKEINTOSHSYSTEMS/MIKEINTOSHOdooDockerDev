@@ -1,13 +1,13 @@
 # Odoo testlogs & chrome test screencasts / screenshots
 _testlogs/
 
-/custom/**
-!/custom/**/.gitkeep
-/src/**
-!/src/**/
-!/src/**/.gitkeep
-.gitmodules
-*.sh
+#/custom/**
+#!/custom/**/.gitkeep
+#/src/**
+#!/src/**/
+#!/src/**/.gitkeep
+#.gitmodules
+#*.sh
 
 # Created by https://www.gitignore.io/api/test,macos,linux,python,windows,pycharm,virtualenv,sublimetext,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=test,macos,linux,python,windows,pycharm,virtualenv,sublimetext,visualstudiocode
@@ -226,7 +226,7 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
-.env
+# .env
 .venv
 env/
 venv/
