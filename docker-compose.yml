@@ -14,8 +14,9 @@ volumes:
 
 services:
   odoo:
-    #image: iterativodo/dockerdoo:${ODOO_VERSION}
-    image: bitnami/odoo:latest
+    #image: bitnami/odoo:latest
+    image: iterativodo/dockerdoo:${ODOO_VERSION}
+    
     env_file: .env
     
     restart: unless-stopped
